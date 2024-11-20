@@ -1,0 +1,17 @@
+---
+title: "Test"
+author: "Dmitrii Belousov"
+date: "2024-11-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is test rmd
+
+```{r}
+print("Hello, world!")
+```
+

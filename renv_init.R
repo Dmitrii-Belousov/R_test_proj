@@ -1,0 +1,20 @@
+library(renv)
+renv::init()
+
+renv::activate()
+
+install.packages("dplyr")
+install.packages("tidyverse")
+install.packages("plotly")
+install.packages("rstatix")
+install.packages("openxlsx")
+install.packages("psych")
+install.packages("flextable")
+install.packages("gtsummary")
+install.packages("pROC")
+install.packages("summarytools")
+install.packages("ggbiplot")
+install.packages("tidymodels")
+install.packages("embed")
+
+renv::snapshot(type = "all")
